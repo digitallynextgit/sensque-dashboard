@@ -1,0 +1,49 @@
+Active code page: 1252
+
+> dashboard-ui@0.1.0 lint
+> eslint
+
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\app\settings\page.tsx
+  9:10  warning  'Settings' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\app\uiux-ai\page.tsx
+  7:19  warning  'Wand2' is defined but never used        @typescript-eslint/no-unused-vars
+  7:26  warning  'Layout' is defined but never used       @typescript-eslint/no-unused-vars
+  7:39  warning  'CheckCircle' is defined but never used  @typescript-eslint/no-unused-vars
+  7:52  warning  'Clock' is defined but never used        @typescript-eslint/no-unused-vars
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\app\userstory-ai\page.tsx
+  7:54  warning  'Clock' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\components\dashboard\charts\traffic-sources-chart.tsx
+  5:40  warning  'Legend' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\components\layout\header.tsx
+  6:22  warning  'useTheme' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\components\layout\main-layout.tsx
+  18:11  warning  'sidebarOpen' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\components\ui\theme-provider.tsx
+  15:3  warning  'defaultTheme' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  16:3  warning  'storageKey' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\components\users\users-table.tsx
+   3:17  warning  'useState' is defined but never used  @typescript-eslint/no-unused-vars
+  28:10  warning  'cn' is defined but never used        @typescript-eslint/no-unused-vars
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\constants\mock-data.ts
+  4:3  warning  'DollarSign' is defined but never used  @typescript-eslint/no-unused-vars
+  7:3  warning  'Activity' is defined but never used    @typescript-eslint/no-unused-vars
+  8:3  warning  'CreditCard' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\lib\auth.ts
+   83:13  warning  'password' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  145:11  warning  'password' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\tailwind.config.ts
+  130:13  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
+Γ£û 19 problems (1 error, 18 warnings)
+

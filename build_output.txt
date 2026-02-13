@@ -1,0 +1,20 @@
+Active code page: 1252
+ ΓÜá Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\lenovo\package-lock.json as the root directory.
+ To silence this warning, set `outputFileTracingRoot` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/output#caveats for more information.
+ Detected additional lockfiles: 
+   * C:\Users\lenovo\Downloads\dashboard-ui-main\package-lock.json
+
+   Γû▓ Next.js 15.5.4
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./src/components/ui/theme-provider.tsx
+Module not found: Can't resolve 'next-themes'
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+> Build failed because of webpack errors

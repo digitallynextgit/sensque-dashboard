@@ -1,0 +1,43 @@
+Active code page: 1252
+
+> dashboard-ui@0.1.0 lint
+> eslint
+
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\app\uiux-ai\page.tsx
+    7:10  warning  'Bot' is defined but never used       @typescript-eslint/no-unused-vars
+    7:15  warning  'Play' is defined but never used      @typescript-eslint/no-unused-vars
+    7:21  warning  'FileText' is defined but never used  @typescript-eslint/no-unused-vars
+   27:16  error    'Sparkles' is not defined             react/jsx-no-undef
+  129:16  error    'Palette' is not defined              react/jsx-no-undef
+  141:16  error    'Eye' is not defined                  react/jsx-no-undef
+  153:16  error    'Layers' is not defined               react/jsx-no-undef
+  165:16  error    'TrendingUp' is not defined           react/jsx-no-undef
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\app\userstory-ai\page.tsx
+    7:10  warning  'Bot' is defined but never used       @typescript-eslint/no-unused-vars
+    7:15  warning  'Play' is defined but never used      @typescript-eslint/no-unused-vars
+    7:21  warning  'FileText' is defined but never used  @typescript-eslint/no-unused-vars
+    7:31  warning  'Zap' is defined but never used       @typescript-eslint/no-unused-vars
+   27:16  error    'Plus' is not defined                 react/jsx-no-undef
+  103:16  error    'BookOpen' is not defined             react/jsx-no-undef
+  127:16  error    'Target' is not defined               react/jsx-no-undef
+  139:16  error    'Users' is not defined                react/jsx-no-undef
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\components\layout\main-layout.tsx
+  6:10  warning  'useSidebar' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\components\ui\theme-provider.tsx
+   6:27  warning  'NextThemesProvider' is defined but never used     @typescript-eslint/no-unused-vars
+  20:3   warning  'defaultTheme' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  21:3   warning  'storageKey' is assigned a value but never used    @typescript-eslint/no-unused-vars
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\constants\mock-data.ts
+  5:0  error  Parsing error: Expression expected
+
+C:\Users\lenovo\Downloads\dashboard-ui-main\src\lib\auth.ts
+   87:23  warning  '_password' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  156:21  warning  '_password' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Γ£û 23 problems (10 errors, 13 warnings)
+
